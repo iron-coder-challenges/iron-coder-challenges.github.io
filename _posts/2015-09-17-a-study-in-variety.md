@@ -38,14 +38,12 @@ Where the result of the modulo operation is the remainder left over from the int
 
 With the modulo operation in hand the rest of the solution falls into place.  The general logic of the solution will be a variation on the following:
 
-Loop through a series of numbers
-
+    Loop through a series of numbers
 	If the number modulo 3 equals 0 output fizz
 	If the number modulo 5 equals 0 output buzz
 	If both modulo 3 and 5 equals 0 output fizzbuzz
 	If none of the above are true, output the number
-
-End Loop
+    End Loop
 
 ## Language Agnosticism
 
