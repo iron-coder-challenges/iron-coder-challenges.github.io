@@ -4,7 +4,7 @@ ruby.html bacon cannon gems cookies rails
 trains.html rails engine transportation coal
 construction.html builder city houses bbq summer
 seasons.html winter spring summer fall autumn
-coming_soon.html winter
+coming_soon.html winter http://example.com/click-me
 favorites.html bacon brisket salad cookies winter
 grill.html brisket potato salad cookies
 engine.html cars rails trains
@@ -29,7 +29,7 @@ arctic-sloth.html fast speedy zoo bacon arctic
 arctic-otter.html penguin penguin penguin penguin penguin arctic
 arctic-penguin.html penguin penguin penguin PEnugin pinguino arctic
 arctic-python.html python penguin zoo arctic gem pip arctic
-three.html magic-number pip python
+three.html magic-number pip python https://three.magic-number
 version.html gem python ruby coding rails
 arctic-train.html rails arctic bacon
 arctic-express.html pineapple rails arctic bacon
@@ -43,3 +43,4 @@ arctic-moose.html python warrior arctic
 arctic-knight.html python warrior arctic
 arctic-arthur.html python king brittons arctic
 arctic-comedy.html python arctic monty cold bbq
+web-applications.html http https web rails django
