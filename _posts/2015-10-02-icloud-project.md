@@ -1,19 +1,19 @@
 ---
 layout: post
-title: iCloud Project
+title: Iron Cloud Project
 categories: projects
 ---
 
 
 *Iron Coder #3*
 
-Congratulations!  Your work on the wacky [Word Madness](http://iron-coder-challenges.github.io/projects/2015/09/18/word-madness-project/) project was a success!  In fact, it was so successful that you have received a desperate plea for help from a new potential employer. iCloud is a site that prides itself on two things.  First, it exists entirely in the cloud, in fact no one knows where it actually exists.  Secondly, it features tags to help group it’s content, allowing its users whose interests range from food to coding to the arctic to categorize their posts for them.
+Congratulations!  Your work on the wacky [Word Madness](http://iron-coder-challenges.github.io/projects/2015/09/18/word-madness-project/) project was a success!  In fact, it was so successful that you have received a desperate plea for help from a new potential employer. Iron Cloud is a site that prides itself on two things.  First, it exists entirely in the cloud, in fact no one knows where it actually exists.  Secondly, it features tags to help group it’s content, allowing its users whose interests range from food to coding to the arctic to categorize their posts for them.
 
-The problem is that their developer was poached by a startup with lots of money and iCloud was left without their crowning achievement, a lovely tag cloud showing all the tags for the site.
+The problem is that their developer was poached by a startup with lots of money and Iron Cloud was left without their crowning achievement, a lovely tag cloud showing all the tags for the site.
 
 ## The Design
 
-For this challenge you will have the tag data which the system admin has helpfully exported into a text file for you [here](http://iron-coder-challenges.github.io/static/ic003-icloud-data.txt).  Your task, if you choose to accept it is to create a tag cloud.  That is, a list of all the tags where each tag appears only once.  The CEO of iCloud insists that this list is in alphabetical order.
+For this challenge you will have the tag data which the system admin has helpfully exported into a text file for you [here](http://iron-coder-challenges.github.io/static/ic003-icloud-data.txt).  Your task, if you choose to accept it is to create a tag cloud.  That is, a list of all the tags where each tag appears only once.  The CEO of Iron Cloud insists that this list is in alphabetical order.
 
 ## Change Happens
 
@@ -37,7 +37,7 @@ Good luck!
 
 Project #: 3
 
-Project Name: iCloud
+Project Name: Iron Cloud
 
 Project Start: October 2, 2015
 
