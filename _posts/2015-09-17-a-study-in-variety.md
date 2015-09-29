@@ -3,6 +3,7 @@ layout: post
 title: Fizz Buzz - A Study in Variety
 categories: Review
 ---
+
 *Iron Coder Premiere*
 
 _Fizz Buzz in your choice of language_
