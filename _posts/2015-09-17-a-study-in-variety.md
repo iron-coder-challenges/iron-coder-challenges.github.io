@@ -99,7 +99,6 @@ var fizzbuzz = function () {
   } else {
     string += "Fizz ";
   }
-
 }
 
 for (i = 1; i <= 100; i++) {
@@ -107,7 +106,8 @@ for (i = 1; i <= 100; i++) {
 };
 
 console.log(string);
-{% end highlight %}
+
+{% endhighlight %}
 
 ### C
 
