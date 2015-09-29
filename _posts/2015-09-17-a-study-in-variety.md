@@ -228,37 +228,14 @@ All of the solutions submitted were great and I appreciate the team members taki
 
 ## Solutions
 
-**André Almar**
-
-**[https://github.com/andrealmar/ironcode**r](https://github.com/andrealmar/ironcoder)
-
-**Derek Gustafson**
-
-**[https://github.com/degustaf/Iron_Coder_00**1](https://github.com/degustaf/Iron_Coder_001)
-
-**Jonathan Colon **
-
-**[https://github.com/jcode89/Iron_Coder_Solution**s](https://github.com/jcode89/Iron_Coder_Solutions)
-
-**Keyasha Brothern**
-
-**[https://github.com/KMBrothern/iron_code**r](https://github.com/KMBrothern/iron_coder)
-
-**Kim Still**
-
-**[https://github.com/twomoredays/Iron-Coder/tree/master/01%20-%20FizzBuz**z](https://github.com/twomoredays/Iron-Coder/tree/master/01%20-%20FizzBuzz)
-
-**Victor Keenan **
-
-**[https://github.com/VictorSK/Iron_Code**r](https://github.com/VictorSK/Iron_Coder)
-
-**Valerie Sharp**
-
-**[https://github.com/valerie937/FizzBuz**z](https://github.com/valerie937/FizzBuzz)
-
-**Jamal Hansen**
-
-**[https://github.com/jamalhansen/ic001-fizz-buz**z](https://github.com/jamalhansen/ic001-fizz-buzz)
+* [André Almar](https://github.com/andrealmar/ironcoder)
+* [Derek Gustafson](https://github.com/degustaf/Iron_Coder_001)
+* [Jonathan Colon](https://github.com/jcode89/Iron_Coder_Solutions)
+* [Keyasha Brothern](https://github.com/KMBrothern/iron_coder)
+* [Kim Still](https://github.com/twomoredays/Iron-Coder/tree/master/01%20-%20FizzBuzz)
+* [Victor Keenan](https://github.com/VictorSK/Iron_Coder)
+* [Valerie Sharp](https://github.com/valerie937/FizzBuzz)
+* [Jamal Hansen](https://github.com/jamalhansen/ic001-fizz-buzz)
 
 ## References
 
