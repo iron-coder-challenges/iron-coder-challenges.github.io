@@ -19,11 +19,8 @@ The basic idea behind Fizz Buzz is to take a series of numbers and perform repla
 To determine if an integer is evenly divisible by another integer, a mathematical operation called modulo is used.  Modulo is often represented by the "%" character, while division is represented by “/”.  This modulo operation, returns the result not of the division itself, but of the remainder after division has been performed. To better understand this, consider the following:
 
 12 / 3 = 4
-
 13 / 3 = 4 Remainder 1
-
 14 / 3 = 4 Remainder 2
-
 15 / 3 = 5
 
 Above you can see that 12 and 15 can be evenly divisible by 3, leaving no remainder.  When you divide 13 or 14 by 3 you have a remainder of 1 and 2, respectively
@@ -31,11 +28,8 @@ Above you can see that 12 and 15 can be evenly divisible by 3, leaving no remain
 It follows that when you use the modulo operation you get the following results:
 
 12 % 3 = 0
-
 13 % 3 = 1
-
 14 % 3 = 2
-
 15 % 3 = 0
 
 Where the result of the modulo operation is the remainder left over from the integer division.
@@ -47,11 +41,8 @@ With the modulo operation in hand the rest of the solution falls into place.  Th
 Loop through a series of numbers
 
 	If the number modulo 3 equals 0 output fizz
-
 	If the number modulo 5 equals 0 output buzz
-
 	If both modulo 3 and 5 equals 0 output fizzbuzz
-
 	If none of the above are true, output the number
 
 End Loop
@@ -61,25 +52,15 @@ End Loop
 One of the things that I am really enjoying about this first exercise is the wide variety of languages that solutions have been submitted in. We have solutions in the following list of languages:
 
 * C
-
 * C++
-
 * Clojure
-
 * Go
-
 * Perl
-
 * Assembly (via g++ compiler)
-
 * PHP
-
 * Javascript
-
 * Java
-
 * Ruby
-
 * Python
 
 I have enjoyed going between these solutions and comparing them not only for the logic and syntax choices made by the developer, but also the choices made by the languages that the solutions are written in.
@@ -95,51 +76,32 @@ I enjoy the way that Kim Still has used functions to organize the conditional lo
 var string = "";
 
 var fizz = function() {
-
   if (i % 3 === 0) {
-
     fizzbuzz(i);
-
   } else {
-
     buzz(i);
-
   }
-
 };
 
 var buzz = function () {
-
   if ((i % 5) === 0) {
-
     string += "Buzz ";
-
   } else {
-
     string += i + " ";
-
   }
-
 };
 
 var fizzbuzz = function () {
-
   if ((i % 5) === 0) {
-
     string += "FizzBuzz ";
-
   } else {
-
     string += "Fizz ";
-
   }
 
 }
 
 for (i = 1; i <= 100; i++) {
-
   fizz(i);
-
 };
 
 console.log(string);
@@ -148,59 +110,37 @@ console.log(string);
 
 Derek Gustafson’s C based solution uses a switch statement along with a clever logic involving the values resulting from modulo 15, the sum of 3 and 5.  The switch statement picks out all of the significant modulo values and defaults the rest to the original number.
 
+{{ highlight C }}
+
 int main(void)
-
 {
-
 	int i;
 
-
-
 	for(i=1; i<101; i++)
-
 	{
-
 		switch(i % 15)
-
 		{
-
 			case 0:
-
 				printf("fizzbuzz\n");
-
 				break;
-
 			case 5:
-
 			case 10:
-
 				printf("buzz\n");
-
 				break;
-
 			case 3:
-
 			case 6:
-
 			case 9:
-
 			case 12:
-
 				printf("fizz\n");
-
 				break;
-
 			default:
-
 				printf("%d\n", i);
-
 		}
-
 	}
-
 	return 0;
-
 }
+
+{{ end highlight }}
 
 ## PHP
 
@@ -209,25 +149,15 @@ PHP is a scripting language used to generate dynamic web content, it was one of 
 <?php
 
 for($i = 1; $i <= 100; $i++) {
-
    if ($i % 3 == 0 && $i % 5 == 0) {
-
     echo "FizzBuzz\n";
-
     } elseif ($i % 3 == 0) {
-
         echo "Fizz\n";
-
     } elseif ($i % 5 ==0) {
-
         echo "Buzz\n";
-
     }else{
-
         echo "$i\n";
-
     }
-
 }
 
 ## Clojure
@@ -235,27 +165,19 @@ for($i = 1; $i <= 100; $i++) {
 Clojure is a language that brings together the power of Lisp with the reliable portability of the Java Virtual Machine. It is a language that looks the most foreign to me, and that makes me want to learn more about it.  Derek Gustafson was kind enough to write the following Fizz Buzz solution in Clojure.
 
 (ns fizz-buzz.core
-
   (:gen-class))
 
 (defn fb_test [x]
-
   (cond
-
     (= (mod x 15) 0) "fizzbuzz"
-
     (= (mod x 3) 0) "fizz"
-
     (= (mod x 5) 0) "buzz"
-
     :else x))
 
 (defn fb_print [x] (println (fb_test x)))
 
 (defn -main
-
   [& args]
-
   (dotimes [n 100] (fb_print (+ n 1))))
 
 ## Go
@@ -265,39 +187,24 @@ André Almar wrote the following solution in Go. The Go language is a relative n
 package main
 
 import (
-
         "fmt"
-
 )
 
 func main(){
-
   number := 1
-
   for number <= 100 {
-
     if number % 3 == 0 && number % 5 == 0 {
-
         fmt.Println("FizzBuzz")
-
     } else if number % 3 == 0 {
-
         fmt.Println("Fizz")
-
     } else if number % 5 == 0{
-
         fmt.Println("Buzz")
-
     } else {
-
         fmt.Println(number)
-
     }
 
     number += 1
-
   }
-
 }
 
 ## Conclusion
