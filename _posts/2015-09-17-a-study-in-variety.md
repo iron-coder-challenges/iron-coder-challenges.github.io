@@ -73,6 +73,8 @@ Let's take a closer look at a few of the solutions to see how they differ and ho
 
 I enjoy the way that Kim Still has used functions to organize the conditional logic that determines which value is output. It is very readable and there is a strong sense of organization in the code.
 
+{% highlight js %}
+
 var string = "";
 
 var fizz = function() {
@@ -105,12 +107,13 @@ for (i = 1; i <= 100; i++) {
 };
 
 console.log(string);
+{% end highlight %}
 
 ### C
 
 Derek Gustafson’s C based solution uses a switch statement along with a clever logic involving the values resulting from modulo 15, the sum of 3 and 5.  The switch statement picks out all of the significant modulo values and defaults the rest to the original number.
 
-{{ highlight C }}
+{{ highlight c }}
 
 int main(void)
 {
