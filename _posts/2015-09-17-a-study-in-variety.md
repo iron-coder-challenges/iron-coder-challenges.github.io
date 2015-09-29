@@ -18,19 +18,19 @@ The basic idea behind Fizz Buzz is to take a series of numbers and perform repla
 
 To determine if an integer is evenly divisible by another integer, a mathematical operation called modulo is used.  Modulo is often represented by the "%" character, while division is represented by “/”.  This modulo operation, returns the result not of the division itself, but of the remainder after division has been performed. To better understand this, consider the following:
 
-12 / 3 = 4
-13 / 3 = 4 Remainder 1
-14 / 3 = 4 Remainder 2
-15 / 3 = 5
+    12 / 3 = 4
+    13 / 3 = 4 Remainder 1
+    14 / 3 = 4 Remainder 2
+    15 / 3 = 5
 
 Above you can see that 12 and 15 can be evenly divisible by 3, leaving no remainder.  When you divide 13 or 14 by 3 you have a remainder of 1 and 2, respectively
 
 It follows that when you use the modulo operation you get the following results:
 
-12 % 3 = 0
-13 % 3 = 1
-14 % 3 = 2
-15 % 3 = 0
+    12 % 3 = 0
+    13 % 3 = 1
+    14 % 3 = 2
+    15 % 3 = 0
 
 Where the result of the modulo operation is the remainder left over from the integer division.
 
@@ -113,7 +113,7 @@ console.log(string);
 
 Derek Gustafson’s C based solution uses a switch statement along with a clever logic involving the values resulting from modulo 15, the sum of 3 and 5.  The switch statement picks out all of the significant modulo values and defaults the rest to the original number.
 
-{{ highlight c }}
+{% highlight c %}
 
 int main(void)
 {
@@ -143,12 +143,13 @@ int main(void)
 	return 0;
 }
 
-{{ end highlight }}
+{% endhighlight %}
 
 ## PHP
 
 PHP is a scripting language used to generate dynamic web content, it was one of the first languages of the web and it is still widely used today.  Keyasha Brothern provided the following solution in PHP.
 
+{% highlight php %}
 <?php
 
 for($i = 1; $i <= 100; $i++) {
@@ -162,10 +163,13 @@ for($i = 1; $i <= 100; $i++) {
         echo "$i\n";
     }
 }
+{% endhighlight %}
 
 ## Clojure
 
 Clojure is a language that brings together the power of Lisp with the reliable portability of the Java Virtual Machine. It is a language that looks the most foreign to me, and that makes me want to learn more about it.  Derek Gustafson was kind enough to write the following Fizz Buzz solution in Clojure.
+
+{% highlight clojure %}
 
 (ns fizz-buzz.core
   (:gen-class))
@@ -183,9 +187,13 @@ Clojure is a language that brings together the power of Lisp with the reliable p
   [& args]
   (dotimes [n 100] (fb_print (+ n 1))))
 
+{% endhighlight %}
+
 ## Go
 
 André Almar wrote the following solution in Go. The Go language is a relative newcomer and this is the first time that I have had a chance to see an example of Go code. Again you see differences from other languages, for instance the for loop that acts more like a traditional while() loop as it does not increment the counter.
+
+{% highlight go %}
 
 package main
 
@@ -209,6 +217,8 @@ func main(){
     number += 1
   }
 }
+
+{% endhighlight %}
 
 ## Conclusion
 
