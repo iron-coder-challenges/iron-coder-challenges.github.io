@@ -4,7 +4,6 @@ title: Word Madness Project
 categories: projects
 ---
 
-# Word Madness Project
 
 Iron Coder #2
 
