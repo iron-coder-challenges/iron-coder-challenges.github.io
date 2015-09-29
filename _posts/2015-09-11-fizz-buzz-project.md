@@ -11,6 +11,8 @@ Fizz Buzz
 
 The first Iron Coder challenge is Fizz Buzz, which outputs a list of numbers after performing some substitutions on it.  Sometimes a number will be replaced by "Fizz" and other times it will be replaced by “Buzz” and sometimes both.
 
+![Fizz Buzz](/images/ic001-fizzbuzz-small.png)
+
 ## The Details
 
 Fizz Buzz is a challenge that is commonly used as an interview question to test an applicant’s coding skills. It involves some core programming concepts such as looping and conditional processing.  Because of this, it is a great place to begin Iron Coder.
