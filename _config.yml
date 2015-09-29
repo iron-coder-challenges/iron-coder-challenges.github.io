@@ -5,10 +5,10 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
+title:               Iron Coder
+tagline:             A CodeNewbie Project
+url:                 http://iron-coder-challenges.github.io
+paginate:            5
 baseurl:             ""
 
 # Assets
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jamal Hansen
+  url:               https://twitter.com/jamahans
+  email:             jamal.hansen@gmail.com
 
 # Custom vars
 version:             2.0.0
