@@ -30,4 +30,4 @@ github:
   repo:              https://github.com/poole/poole
 
 highlighter:        pygments
-include:            [images]
+include:            ["images"]
