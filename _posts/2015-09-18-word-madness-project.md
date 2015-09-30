@@ -9,6 +9,8 @@ categories: projects
 
 This week’s Iron Coder project is the wacky word game that you may be familiar with, Mad Libs.  To complete this challenge, prompt the user to input certain types of words and then plug those words into a short story.  Hilarity ensues as people add strange words that don’t match the flow of the original story. Have fun making this happen.
 
+![Word Madness](/images/ic002-word-madness.png)
+
 ## The Design
 
 In this challenge, you will have great creative freedom and there are a number of design decisions that you can make and others that your language of choice may nudge you towards.
